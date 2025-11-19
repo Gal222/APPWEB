@@ -1,0 +1,125 @@
+:root {
+    --borde: #757575;
+    /* gris claro */
+    --gris-oscuro: #2f2f2f;
+    /* fondo principal de las celdas */
+    --fondo: #000000;
+    /* Negro puro */
+}
+
+/*Nombres Asignaturas*/
+.aplicacionesweb::after {content: "Aplicaciones Web";}
+
+.introfullstack::after {content: "Intro Full Stack";}
+
+.inglesprof::after {content: "Inglés";}
+
+.siopr::after {content: "SIOPR";}
+
+.serviciosred::after {content: "Servicios Red";}
+
+.seguridadinform::after {content: "Seguridad";}
+
+.recreo::after {content: "Recreo";}
+
+.ipeii::after {content: "IPE II";}
+
+.proyectointermedio::after {
+    content: "Proyecto";
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background: var(--fondo);
+    margin: 20px;
+}
+
+table.horario {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid var(--borde);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    background: var(--borde);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Celdas de asignaturas*/
+th,
+td {
+    text-shadow: 1px 2px 1px #000000;
+    border: 1px solid var(--borde);
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 1000;
+}
+
+/* Celdas Dias*/
+thead th {
+    background: #131313;
+    color: rgb(179, 176, 176);
+    font-weight: 1000;
+}
+
+/* Celdas de Horas*/
+tbody th {
+    background: #1b1a1a;
+    color: rgb(179, 176, 176);
+    font-weight: 1000;
+    border-radius: 8px;
+}
+
+/* Celdas de asignaturas*/
+.aplicacionesweb {
+    background: var(--gris-oscuro);
+    color: #1e88e5;
+}
+
+.introfullstack {
+    background: var(--gris-oscuro);
+    color: #e53935;
+}
+
+.seguridadinform {
+    background: var(--gris-oscuro);
+    color: #f6e05e;
+}
+
+.siopr {
+    background: var(--gris-oscuro);
+    color: #8e44ad;
+}
+
+.ipeii {
+    background: var(--gris-oscuro);
+    color: #26a69a;
+}
+
+.serviciosred {
+    background: var(--gris-oscuro);
+    color: #f39c12;
+}
+
+.inglesprof {
+    background: var(--gris-oscuro);
+    color: #22c55e;
+}
+
+.proyectointermedio {
+    background: var(--gris-oscuro);
+    color: #3f587a;
+}
+
+.recreo {
+    background: var(--borde);
+    color: #cad3e2;
+    font-weight: 700;
+}
+
+/* 
+By Jesus Ponce 
+Creditos a Chatgpt.com por su colaboración
+*/
